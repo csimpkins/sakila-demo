@@ -4,7 +4,7 @@ Flask web app demonstrating database programming using the MySQL sakila example 
 
 ## Requirements
 
-1. Python 3, which I recommend getting through [Miniconda](http://conda.pydata.org/miniconda.html) -- remember to get the Python 3.5 version!. Then at your command line do:
+1. Python 3, which I recommend getting through [Miniconda](http://conda.pydata.org/miniconda.html) -- remember to get the Python 3.5 version! Then at your command line do:
 
    ```sh
    $ conda install python pip flask pymysql
@@ -21,9 +21,7 @@ Flask web app demonstrating database programming using the MySQL sakila example 
 
 ## Running
 
-Once you have all the required software and libraries you just:
-
-1. Start you MysQL server (if necessary - OS X).
+1. Start your MySQL server (if necessary, mainly on OS X).
 2. Clone this repository.
 3. `cd` to the `sakila-demo` directory
 4. Run `python sakila_demo.py`.
@@ -32,7 +30,7 @@ Once you have all the required software and libraries you just:
 
 Of course you need to know [Python](https://docs.python.org/3/tutorial/) and [MySQL](http://dev.mysql.com/doc/refman/5.7/en/). The new stuff for most students will be:
 
-1. The Python [DB-API](https://www.python.org/dev/peps/pep-0249/) and [PyMySQL](http://pymysql.readthedocs.io/en/latest/)'s implementation of it.
+1. The [Python DB-API](https://www.python.org/dev/peps/pep-0249/) and [PyMySQL](http://pymysql.readthedocs.io/en/latest/)'s implementation of it.
 2. The [Flask](http://flask.pocoo.org/) web application framework.
 3. The [Bootstrap](http://getbootstrap.com/) web front end framework.
 4. You'll need at least a firm grasp of HTML. Knowledge of CSS and JavaScript are also helpful but not essential. You can learn these at [Mozilla Developer Network](https://developer.mozilla.org/).
